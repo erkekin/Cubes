@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-@property (strong, nonatomic) IBOutletCollection(UITextField) NSArray *fields;
 
+@property (strong, nonatomic) IBOutletCollection(UITextField) NSArray *fields; // a temporary solutions for multiple textFields..
 
-- (IBAction)findIntersectionButtonTapped:(id)sender;
+- (IBAction)findIntersectionButtonTapped:(id)sender; // button pressed
 
 @end
