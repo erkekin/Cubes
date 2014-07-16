@@ -29,9 +29,25 @@
     NSLog(@"Z1 %f Z2 ",fabs(cube1OriginZ-cube2OriginZ));
     
     
+//    var d0 = divs.eq(0).position(),
+//    d1 = divs.eq(1).position(),
+//    x11 = d0.left,
+//    y11 = d0.top,
+//    x12 = d0.left + 50,
+//    y12 = d0.top + 50,
+//    x21 = d1.left,
+//    y21 = d1.top,
+//    x22 = d1.left + 50,
+//    y22 = d1.top + 50,
+//    
+//    x_overlap = Math.max(0, Math.min(x12,x22) - Math.max(x11,x21))
+//    y_overlap = Math.max(0, Math.min(y12,y22) - Math.max(y11,y21));
+    
+    
+
     CGFloat xSize = 3;   CGFloat ySize = 3;   CGFloat zSize = 3;
     
-    if (xSize *ySize *zSize>0) { // create a intersection prism object if volume is > 0
+    if ((xSize *ySize *zSize) >0) { // create a intersection prism object if volume is > 0
         Prism* intersection = [[Prism alloc] init];
         
         intersection.xSize = xSize;  intersection.ySize = ySize;  intersection.zSize = zSize;
@@ -43,19 +59,3 @@
 }
 
 @end
-//var d0 = divs.eq(0).position(),
-//d1 = divs.eq(1).position(),
-//x11 = d0.left,
-//y11 = d0.top,
-//x12 = d0.left + divs.eq(0).width(),
-//y12 = d0.top + divs.eq(0).height(),
-//x21 = d1.left,
-//y21 = d1.top,
-//x22 = d1.left + divs.eq(1).width(),
-//y22 = d1.top + divs.eq(1).height(),
-//
-///*x_overlap = x12<x21 || x11>x22 ? 0 : Math.min(x12,x22) - Math.max(x11,x21),
-// y_overlap = y12<y21 || y11>y22 ? 0 : Math.min(y12,y22) - Math.max(y11,y21);*/
-//
-//x_overlap = Math.max(0, Math.min(x12,x22) - Math.max(x11,x21))
-//y_overlap = Math.max(0, Math.min(y12,y22) - Math.max(y11,y21));

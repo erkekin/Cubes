@@ -16,10 +16,11 @@
 
 - (IBAction)findIntersectionButtonTapped:(id)sender {
     
-    Cube *cube1, *cube2 = [[Cube alloc] init];
+    Cube *cube1 = [[Cube alloc] init];
+    Cube *cube2 = [[Cube alloc] init];
     
     [self.fields enumerateObjectsUsingBlock:^(UITextField * textField, NSUInteger idx, BOOL *stop) {
-        NSLog(@"%@ %d",textField.text, textField.tag);
+
         switch (textField.tag) {
                 
                  // Assignments for cube 1
@@ -63,14 +64,12 @@
         
     }];
     
-//    
-//    
 //    cube1.xCenter = 15;   cube1.yCenter = 10;   cube1.zCenter = 10;
 //    cube1.size = 10;
 //    
 //    cube2.xCenter = 10;   cube2.yCenter = 10;   cube2.zCenter = 10;
 //    cube2.size = 10;
-//    
+    
     Prism * intersectionPrism =  [cube1 getIntersectionVolumeWithCube:cube2];
     
     NSString * message;
