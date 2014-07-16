@@ -7,14 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Prism.h"
 
-@interface Cube : NSObject
+@interface Cube : Prism
 
-@property (readwrite, nonatomic) CGFloat xCenter;
-@property (readwrite, nonatomic) CGFloat yCenter;
-@property (readwrite, nonatomic) CGFloat zCenter;
+- (Prism*)getIntersectionVolumeWithCube:(Cube*)cube;
+
 @property (readwrite, nonatomic) CGFloat size;
-
-- (CGFloat)getIntersectionVolumeWithCube:(Cube*)cube;
 
 @end

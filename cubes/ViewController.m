@@ -19,7 +19,7 @@
     [super viewDidLoad];
     
     Cube * cube1 = [[Cube alloc] init];
-    cube1.xCenter = 10;   cube1.yCenter = 10;   cube1.zCenter = 10;
+    cube1.xCenter = 15;   cube1.yCenter = 10;   cube1.zCenter = 10;
     cube1.size = 10;
     Cube * cube2 = [[Cube alloc] init];
     cube2.xCenter = 10;   cube2.yCenter = 10;   cube2.zCenter = 10;
