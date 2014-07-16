@@ -10,4 +10,10 @@
 
 @implementation Prism
 
+- (CGFloat)volume{
+
+    return self.xSize * self.ySize * self.zSize;
+    
+}
+
 @end

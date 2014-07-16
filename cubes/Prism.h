@@ -13,4 +13,10 @@
 @property (readwrite, nonatomic) CGFloat yCenter;
 @property (readwrite, nonatomic) CGFloat zCenter;
 
+@property (readwrite, nonatomic) CGFloat xSize;
+@property (readwrite, nonatomic) CGFloat ySize;
+@property (readwrite, nonatomic) CGFloat zSize;
+
+- (CGFloat)volume;
+
 @end
