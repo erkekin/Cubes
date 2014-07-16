@@ -19,12 +19,13 @@
     [super viewDidLoad];
     
     Cube * cube1 = [[Cube alloc] init];
-    cube1.x = 5;   cube1.y = 5;   cube1.z = 5;
-    
+    cube1.xCenter = 10;   cube1.yCenter = 10;   cube1.zCenter = 10;
+    cube1.size = 10;
     Cube * cube2 = [[Cube alloc] init];
-    cube2.x = 5;   cube2.y = 5;   cube2.z = 5;
+    cube2.xCenter = 10;   cube2.yCenter = 10;   cube2.zCenter = 10;
+    cube2.size = 10;
     
-    
+    [cube1 getIntersectionVolumeWithCube:cube2];
     
 	// Do any additional setup after loading the view, typically from a nib.
 }

@@ -10,9 +10,9 @@
 
 @interface Cube : NSObject
 
-@property (readwrite, nonatomic) CGFloat x;
-@property (readwrite, nonatomic) CGFloat y;
-@property (readwrite, nonatomic) CGFloat z;
+@property (readwrite, nonatomic) CGFloat xCenter;
+@property (readwrite, nonatomic) CGFloat yCenter;
+@property (readwrite, nonatomic) CGFloat zCenter;
 @property (readwrite, nonatomic) CGFloat size;
 
 - (CGFloat)getIntersectionVolumeWithCube:(Cube*)cube;
