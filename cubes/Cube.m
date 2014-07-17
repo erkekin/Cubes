@@ -13,11 +13,11 @@
 - (Prism*)getIntersectionVolumeWithCube:(Cube*)cube{
     
     CGFloat cube1OriginX = self.xCenter-self.size/2;
-    CGFloat cube1OriginY = self.yCenter+self.size/2;
+    CGFloat cube1OriginY = self.yCenter-self.size/2;
     CGFloat cube1OriginZ = self.zCenter-self.size/2;
     
     CGFloat cube2OriginX = cube.xCenter-cube.size/2;
-    CGFloat cube2OriginY = cube.yCenter+cube.size/2;
+    CGFloat cube2OriginY = cube.yCenter-cube.size/2;
     CGFloat cube2OriginZ = cube.zCenter-cube.size/2;
     
     CGFloat x11 = cube1OriginX;
@@ -41,7 +41,7 @@
     CGFloat ySize = MAX(0, MIN(y12, y22) - MAX(y11, y21));
     CGFloat zSize = MAX(0, MIN(z12, z22) - MAX(z11, z21));
     
-    if ((xSize *ySize *zSize) >0) { // create a intersection prism object if volume is > 0
+    if ((xSize *ySize *zSize) > 0) { // create a intersection prism object if volume is > 0
         Prism* intersection = [[Prism alloc] init];
         
         intersection.xSize = xSize;  intersection.ySize = ySize;  intersection.zSize = zSize;
