@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F384C3CD-A7B4-4415-BFEE-FC7D4B260979</string>
+	<key>IDESourceControlProjectName</key>
+	<string>cubes</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FA4DF560-791A-45F2-BD0C-DA18B59EDE33</key>
+		<string>https://github.com/erkekin/Cubes.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>cubes.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FA4DF560-791A-45F2-BD0C-DA18B59EDE33</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/erkekin/Cubes.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FA4DF560-791A-45F2-BD0C-DA18B59EDE33</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FA4DF560-791A-45F2-BD0C-DA18B59EDE33</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cubes</string>
+		</dict>
+	</array>
+</dict>
+</plist>
